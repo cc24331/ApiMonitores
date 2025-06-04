@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIMonitores", "APIMonitores\APIMonitores.csproj", "{AD94CA3B-C05C-1189-E974-E4892E55A9BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD94CA3B-C05C-1189-E974-E4892E55A9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD94CA3B-C05C-1189-E974-E4892E55A9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD94CA3B-C05C-1189-E974-E4892E55A9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD94CA3B-C05C-1189-E974-E4892E55A9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F95BA822-CB9B-4289-804E-F5EE94D49E75}
+	EndGlobalSection
+EndGlobal

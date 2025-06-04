@@ -1,0 +1,28 @@
+# Build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio
+.vscode/
+.vs/
+
+# EF Core Migrations build output (optional)
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+# Others
+*.db
