@@ -5,7 +5,7 @@
 namespace APIMonitores.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,8 +31,8 @@ namespace APIMonitores.Migrations
                 {
                     IdHorario = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DiaSemana = table.Column<int>(type: "int", nullable: false),
-                    HorarioTexto = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    diaSemana = table.Column<int>(type: "int", nullable: false),
+                    horario = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdMonitor = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
