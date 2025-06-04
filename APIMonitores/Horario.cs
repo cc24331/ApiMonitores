@@ -1,6 +1,4 @@
-using System.ComponentModel.DataAnnotations; // << ADICIONE ESTA LINHA (se for usar Required, MaxLength, etc.)
-
-namespace APIMonitores.Models // << AJUSTE PARA ESTE NAMESPACE
+namespace APIMonitores.Models 
 {
     public class Horario
     {
