@@ -1,9 +1,3 @@
-// REMOVA esta linha:
-// using Monitor = System.Threading.Monitor;
-
-using Microsoft.EntityFrameworkCore;
-using SuaAPI.Models;
-
 namespace SuaAPI.Data
 {
     public class AppDbContext : DbContext
