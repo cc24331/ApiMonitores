@@ -108,7 +108,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Redirecionamento HTTPS (boa prática)
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 // Adicionar autorização (se sua API usar)
 //app.UseAuthorization();
