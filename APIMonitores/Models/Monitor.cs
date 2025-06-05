@@ -1,9 +1,12 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations; // Usado para [Key] se você preferir
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace APIMonitores.Models
 {
-    public class Monitor
+    [Table("Monitores")]
+    public class AlunoMonitor
+
     {
         [Key] // Anotação para indicar que IdMonitor é a chave primária
         public int IdMonitor { get; set; }

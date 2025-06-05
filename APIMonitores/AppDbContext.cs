@@ -8,13 +8,13 @@ namespace APIMonitores
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         // CORREÇÃO: Qualificando 'Monitor' com seu namespace completo
-        public DbSet<APIMonitores.Models.Monitor> Monitores { get; set; }
+        public DbSet<APIMonitores.Models.AlunoMonitor> Monitores { get; set; }
         public DbSet<APIMonitores.Models.Horario> Horarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // CORREÇÃO: Qualificando 'Monitor' com seu namespace completo
-            modelBuilder.Entity<APIMonitores.Models.Monitor>()
+            modelBuilder.Entity<APIMonitores.Models.AlunoMonitor>()
                 .HasMany(m => m.Horarios)
                 .WithOne(h => h.Monitor)
                 .HasForeignKey(h => h.IdMonitor)

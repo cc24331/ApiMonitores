@@ -17,6 +17,6 @@ namespace APIMonitores.Models
 
         // Propriedade de navegação para Monitor
         [ForeignKey("IdMonitor")] // Opcional, mas boa prática para clareza
-        public Monitor Monitor { get; set; } = null!; // null! indica que não será nulo após carregamento do EF
+        public AlunoMonitor Monitor { get; set; } = null!; // null! indica que não será nulo após carregamento do EF
     }
 }
