@@ -8,7 +8,7 @@ namespace APIMonitores.Models
     public class AlunoMonitor
 
     {
-        [Key] // Anotação para indicar que IdMonitor é a chave primária
+        [Key]
         public int IdMonitor { get; set; }
 
         public required string RA { get; set; }
@@ -17,7 +17,6 @@ namespace APIMonitores.Models
 
         public required string Apelido { get; set; }
 
-        // Propriedade de navegação para Horarios
         public ICollection<Horario> Horarios { get; set; } = new List<Horario>();
     }
 }
